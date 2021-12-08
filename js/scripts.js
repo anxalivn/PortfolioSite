@@ -9,7 +9,7 @@ function moveCircle(e) {
   });
 }
 
-$(document).mousemove(moveCircle);
+$(window).on('mousemove', moveCircle);
 
 window.addEventListener('DOMContentLoaded', event => {
 
