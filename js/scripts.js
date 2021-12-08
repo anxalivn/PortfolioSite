@@ -9,7 +9,7 @@ function moveCircle(e) {
   });
 }
 
-$(window).on('mousemove', moveCircle);
+$(document).bind('mousemove', moveCircle);
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
